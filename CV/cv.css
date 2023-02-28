@@ -1,0 +1,125 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .Foto {
+    grid-column: 1 / 2;
+    grid-row: 1;  
+  }
+  .Nombre {
+    grid-column: 1 / 5;
+    grid-row: 1;
+
+    background-color: rgba( 54, 202, 197, 0.8);
+      background-image:
+      repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 3px, transparent 3px, transparent 60px),
+      repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 3px, transparent 60px),
+      linear-gradient(60deg, rgba(139,139,139,.6) 25%, transparent 25%, transparent 75%, rgba(139,139,139,.6) 75%, rgba(139,139,139,.6)),
+      linear-gradient(120deg, rgba(139,139,139,.6) 25%, transparent 25%, transparent 75%, rgba(139,139,139,.6) 75%, rgba(139,139,139,.6));
+      background-size: 70px 120px;
+
+      border: 3px solid #555; 
+  }
+
+  .Nombre h1, h4 {
+    margin-left: 370px;
+    text-align: left;
+  } 
+
+  .Nombre h1 {
+    font-size: 120px;
+    font-family: 'Zeyada', cursive;
+    line-height: 50%;
+    margin-bottom: 35px;
+    margin-top: 130px;
+  } 
+
+  .Nombre h4 {
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'EB Garamond', serif;
+  } 
+
+  .three {
+    grid-column: 1;
+    grid-row: 2 / 5;
+  }
+  .four {
+    grid-column: 2;
+    grid-row: 2 / 5;
+  }
+
+  .icon-email {
+    list-style: none;
+    padding: 0px;
+  }
+
+  .icon-email li:before {
+    content: "\1F4E7";
+    margin: 0 0.2em;
+  }
+
+  h1 {
+    font-size: 70px;
+    color: black;
+    text-align: center;
+  }
+
+  .rellenoBorde {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+
+  .infoPersonal {
+    text-align: center;
+  }
+
+  .infoPersonal button{
+    font-size: 16px;
+    font-style: bold;
+    color: #FFFFFF;
+    background-color: #5995da;
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .infoPersonal button:hover{
+    background-color: #2e4aa7;
+  }
+
+  .informacion{
+    display: none;
+  }
+
+  .menuFotos{
+    display: flex;
+    flex-direction: column;
+    display: none;
+    background: #B2D6FF;
+    border-radius: 5px;
+    padding-top: 5px;
+  }
+
+  .menuFotos li {
+    list-style: none;
+    border-bottom: 1px solid #FFF;
+
+    padding: 0 60px 10px 20px;
+    margin: 10px;
+  }
+
+  .menuFotos li:hover{
+    font-size:1.1em;
+  }
+
+  .menuFotos li:last-of-type{
+    border-bottom: none;
+  }
+
+
+

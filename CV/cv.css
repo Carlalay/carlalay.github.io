@@ -23,13 +23,13 @@
       border: 3px solid #555; 
   }
 
-  .Nombre h1, h4 {
+.Nombre h1, h4 { 
     margin-left: 370px;
     text-align: left;
   } 
 
   .Nombre h1 {
-    font-size: 120px;
+    font-size: 9vw;
     font-family: 'Zeyada', cursive;
     line-height: 50%;
     margin-bottom: 35px;

@@ -7,6 +7,8 @@
   .Foto {
     grid-column: 1 / 2;
     grid-row: 1;  
+    display: flex;
+    align-items: center;
   }
   .Nombre {
     grid-column: 1 / 5;
@@ -24,7 +26,7 @@
   }
 
 .Nombre h1, h4 { 
-    margin-left: 370px;
+    margin-left: 25vw;
     text-align: left;
   } 
 
@@ -68,9 +70,11 @@
   }
 
   .rellenoBorde {
-    padding-left: 30px;
+    padding-left: 2.5vw;
     padding-top: 10px;
     padding-bottom: 5px;
+    height: 25vw;
+    width: auto;
   }
 
   .infoPersonal {

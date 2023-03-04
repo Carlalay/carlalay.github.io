@@ -68,25 +68,14 @@
     color: black;
     text-align: center;
   }
-  @media only screen and (max-width:460px) {
-   .rellenoBorde {
-      padding-left: 2.5vw;
-      padding-top: 10px;
-      padding-bottom: 5px;
-      height: 25vw;
-      width: auto;
-    }
-  }
 
-  @media only screen and (min-width:461px) {
-    .rellenoBorde {
-       padding-left: 2.5vw;
-       padding-top: 10px;
-       padding-bottom: 5px;
-       height: 25vw;
-       width: auto;
-     }
-   }
+  .rellenoBorde {
+    padding-left: 2.5vw;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    height: 25vw;
+    width: auto;
+  }
 
   .infoPersonal {
     text-align: center;

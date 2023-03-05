@@ -31,7 +31,7 @@
   } 
 
   .Nombre h1 {
-    font-size: 9vw;
+    font-size: max(min(9vw, 160px),40px);
     font-family: 'Zeyada', cursive;
     line-height: 50%;
     margin-bottom: 35px;
@@ -39,7 +39,7 @@
   } 
 
   .Nombre h4 {
-    font-size: 20px;
+    font-size: max(1.1vw, 13px);
     font-style: italic;
     font-family: 'EB Garamond', serif;
   } 
@@ -73,7 +73,7 @@
     padding-left: 2.5vw;
     padding-top: 10px;
     padding-bottom: 5px;
-    height: 25vw;
+    height: min(25vw, 300px);
     width: auto;
   }
 
